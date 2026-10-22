@@ -1,0 +1,26 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# ---- 运行时数据（不进仓库）----
+# 下载缓存：可能有几个 GB 的安装包
+cache/
+# 覆盖安装前的备份、PATH 备份
+backup/
+# 用户自己的配置（含本机软件清单、忽略列表等）
+config.json
+# 日志
+*.log
+InstallShield.log
+
+# ---- 项目内部记录 ----
+.workbuddy/
+
+# ---- 临时文件 ----
+_t_*.py
+_shot*.py
+_grab*.py
+*.bmp

@@ -1,0 +1,22 @@
+{
+  "winget_timeout": 300,
+  "portable_scan_dirs": [
+    "D:\\GreenApps",
+    "E:\\Tools"
+  ],
+  "portable_apps": [
+    {
+      "name": "示例程序",
+      "exe": "D:\\Tools\\Example\\example.exe",
+      "github": "owner/repo",
+      "asset": "*-win64.zip",
+      "from": "",
+      "target": ""
+    }
+  ],
+  "notes_sources": {},
+  "row_height": 26,
+  "only_updatable": true,
+  "keep_download": true,
+  "ignored": []
+}

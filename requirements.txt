@@ -1,0 +1,11 @@
+# 本项目没有任何第三方依赖
+#
+# 全部功能只用 Python 标准库实现（tkinter / urllib / zipfile / ctypes / winreg ...），
+# 因此不需要 pip install 任何东西，直接运行 一键更新.bat 即可。
+#
+# 系统层面的前置条件只有两个：
+#   1. Windows 10 1809 及以上（需要 winget）
+#   2. Python 3.9+，且安装时勾选了 tcl/tk（tkinter）
+#
+# winget 若缺失（Windows LTSC / 精简系统常见），先装 App Installer：
+#   https://apps.microsoft.com/detail/9nblggh4nns1
